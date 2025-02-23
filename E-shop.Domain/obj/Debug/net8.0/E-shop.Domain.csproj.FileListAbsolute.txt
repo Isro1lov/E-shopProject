@@ -1,0 +1,12 @@
+/Users/macbookpro/RiderProjects/E-shop/E-shop.Domain/bin/Debug/net8.0/E-shop.Domain.deps.json
+/Users/macbookpro/RiderProjects/E-shop/E-shop.Domain/bin/Debug/net8.0/E-shop.Domain.dll
+/Users/macbookpro/RiderProjects/E-shop/E-shop.Domain/bin/Debug/net8.0/E-shop.Domain.pdb
+/Users/macbookpro/RiderProjects/E-shop/E-shop.Domain/obj/Debug/net8.0/E-shop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookpro/RiderProjects/E-shop/E-shop.Domain/obj/Debug/net8.0/E-shop.Domain.AssemblyInfoInputs.cache
+/Users/macbookpro/RiderProjects/E-shop/E-shop.Domain/obj/Debug/net8.0/E-shop.Domain.AssemblyInfo.cs
+/Users/macbookpro/RiderProjects/E-shop/E-shop.Domain/obj/Debug/net8.0/E-shop.Domain.csproj.CoreCompileInputs.cache
+/Users/macbookpro/RiderProjects/E-shop/E-shop.Domain/obj/Debug/net8.0/E-shop.Domain.dll
+/Users/macbookpro/RiderProjects/E-shop/E-shop.Domain/obj/Debug/net8.0/refint/E-shop.Domain.dll
+/Users/macbookpro/RiderProjects/E-shop/E-shop.Domain/obj/Debug/net8.0/E-shop.Domain.pdb
+/Users/macbookpro/RiderProjects/E-shop/E-shop.Domain/obj/Debug/net8.0/ref/E-shop.Domain.dll
+/Users/macbookpro/RiderProjects/E-shop/E-shop.Domain/obj/Debug/net8.0/E-shop.Domain.csproj.AssemblyReference.cache
