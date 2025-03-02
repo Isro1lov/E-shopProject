@@ -76,3 +76,8 @@
 /Users/macbookpro/RiderProjects/E-shop/E-shop.Console/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/macbookpro/RiderProjects/E-shop/E-shop.Console/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
 /Users/macbookpro/RiderProjects/E-shop/E-shop.Console/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/macbookpro/RiderProjects/E-shop/E-shop.Console/obj/Debug/net8.0/E-shop.Console.sourcelink.json
+/Users/macbookpro/RiderProjects/E-shop/E-shop.Console/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/macbookpro/RiderProjects/E-shop/E-shop.Console/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/macbookpro/RiderProjects/E-shop/E-shop.Console/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/macbookpro/RiderProjects/E-shop/E-shop.Console/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll

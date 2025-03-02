@@ -16,10 +16,14 @@ public class ShopContext : DbContext
     public DbSet<Cart> Carts { get; set; }
     public DbSet<CartItem> CartItems { get; set; }
     public DbSet<CustomerAddress> CustomerAddress { get; set; }
-    
     public DbSet<Order> Orders { get; set; }
-    
     public DbSet<OrderItem> OrderItems { get; set; }
+    
+    public DbSet<OrderStatus> OrderStatuses { get; set; }
+    
+    public DbSet<LastMonthOrder> LastMonthOrders { get; set; }
+    
+
     
     //FluentAPI
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -27,7 +31,15 @@ public class ShopContext : DbContext
 
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(ShopContext).Assembly);
 
+        base.OnModelCreating(modelBuilder);
+        
+        modelBuilder.Entity<LastMonthOrder>()
+            .ToView("LastMonthOrdersViewNew") 
+            .HasNoKey();
+        
+        //var lastMonthOrders = await _context.LastMonthOrders.ToListAsync();
 
+        
         // //ManyToMany
         //  modelBuilder.Entity<ProductCategory>(builder =>
         //  {
@@ -48,14 +60,14 @@ public class ShopContext : DbContext
         });
 
         //OneToMany
-        modelBuilder.Entity<Cart>()
-            .HasMany(c => c.CartItems)
-            .WithOne(c => c.Cart);
-
-        modelBuilder.Entity<CartItem>()
-            .HasOne(c => c.Cart)
-            .WithMany(c => c.CartItems)
-            .HasForeignKey(c => c.CardId);
+        // modelBuilder.Entity<Cart>()
+        //     .HasMany(c => c.CartItems)
+        //     .WithOne(c => c.Cart);
+        //
+        // modelBuilder.Entity<CartItem>()
+        //     .HasOne(c => c.Cart)
+        //     .WithMany(c => c.CartItems)
+        //     .HasForeignKey(c => c.CartId);
     }
 
     //Seeding
@@ -73,7 +85,7 @@ public class ShopContext : DbContext
         optionsBuilder
             //.UseLazyLoadingProxies()
             .UseNpgsql(connectionString) 
-            //.LogTo(Console.WriteLine, LogLevel.Information)
+            .LogTo(Console.WriteLine, LogLevel.Information)
             .UseSnakeCaseNamingConvention();
             //.UseLazyLoading();
 

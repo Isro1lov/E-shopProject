@@ -6,17 +6,22 @@ namespace e_shop.Domain.Entities.Order;
 
 public class Order
 {
+    public Order()
+    {
+        OrderItems = new List<OrderItem>();
+    }
+    
     public int Id { get; set; }
 
-    public int CouponId { get; set; }
+    public int? CouponId { get; set; }
 
     public Coupon Coupon { get; set; }
 
-    public int CustomerId { get; set; }
+    public int? CustomerId { get; set; }
 
     public Customer.Customer Customer { get; set; }
 
-    public int OrderStatusId { get; set; }
+    public int? OrderStatusId { get; set; }
 
     public OrderStatus OrderStatus { get; set; }
 

@@ -11,7 +11,7 @@ namespace e_shop.Domain.Entities
         }
         public int Id { get; set; }
         
-        public int ParentId { get; set; }
+        public int? ParentId { get; set; }
         public string CategoryName { get; set; }
         
         public string CategoryDescription { get; set; }

@@ -35,7 +35,7 @@ namespace e_shop.Domain.Entities
         
         public DateTime UpdatedAt { get; set; }
         
-        public int CreatedBy { get; set; }   
+        public int? CreatedBy { get; set; }   
         
         public int? UpdatedBy { get; set; }
         public ICollection<Category>? Categories { get; set; }

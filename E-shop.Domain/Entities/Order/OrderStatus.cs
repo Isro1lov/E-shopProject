@@ -13,9 +13,9 @@ public class OrderStatus
 
     public string Privacy { get; set; } = "private";
 
-    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public DateTime? CreatedAt { get; set; } = DateTime.UtcNow;
 
-    public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
+    public DateTime? UpdatedAt { get; set; } = DateTime.UtcNow;
 
     public int CreatedBy { get; set; }
 

@@ -15,3 +15,4 @@
 /Users/macbookpro/RiderProjects/E-shop/E-shop.DataAccess/obj/Debug/net8.0/ref/E-shop.DataAccess.dll
 /Users/macbookpro/RiderProjects/E-shop/E-shop.DataAccess/bin/Debug/net8.0/E-shop.DataAccess.runtimeconfig.json
 /Users/macbookpro/RiderProjects/E-shop/E-shop.DataAccess/obj/Debug/net8.0/E-shop.DataAccess.genruntimeconfig.cache
+/Users/macbookpro/RiderProjects/E-shop/E-shop.DataAccess/obj/Debug/net8.0/E-shop.DataAccess.sourcelink.json

@@ -8,5 +8,5 @@ public class Role
 
     public string RoleName { get; set; }
 
-    public List<string> Privileges { get; set; }
+    public string Privileges { get; set; }
 }

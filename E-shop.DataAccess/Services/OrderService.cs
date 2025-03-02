@@ -1,5 +1,6 @@
 using e_shop.Domain.Entities;
 using e_shop.Domain.Entities.Order;
+using Microsoft.EntityFrameworkCore;
 
 namespace e_shop.DataAccess.Services;
 
@@ -17,6 +18,13 @@ public class OrderService : IOrderService
     public OrderService(ShopContext context)
     {
         _context = context;
+    }
+
+    public async Task<List<LastMonthOrder>> GetLastMonthOrdersAsync()
+    {
+        return await _context.LastMonthOrders
+            .OrderByDescending(o => o.CreatedAt)
+            .ToListAsync();
     }
     
     public async Task AddOrder(Order order)

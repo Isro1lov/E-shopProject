@@ -21,6 +21,36 @@ var cartService = new CartService(context);
 var orderService = new OrderService(context);
 
 
+// customerService.AddCustomer(new Customer()
+// {
+//     Id = 1,
+//     FirstName = "John",
+//     LastName = "Doe",
+//     Email = "john.doe@gmail.com",
+//     PasswordHash = "password",
+//     Active = true,
+//     PhoneNumber = "0123456789",
+//     RegisteredAt = DateTime.Now,
+//     UpdatedAt = DateTime.UtcNow,
+//     
+// });
+// context.SaveChanges();
+
+// var customer = new Customer()
+// {
+//     Id = 1,
+//     FirstName = "John1",
+//     LastName = "Doe",
+//     Email = "john.doe@gmail.com",
+//     PasswordHash = "password",
+//     Active = true,
+//     PhoneNumber = "0123456789",
+//     RegisteredAt = DateTime.Now,
+//     UpdatedAt = DateTime.UtcNow,
+// };
+// context.SaveChanges();  
+
+
 // service.Add(new Product()
 // {
 //     //Id = 1,

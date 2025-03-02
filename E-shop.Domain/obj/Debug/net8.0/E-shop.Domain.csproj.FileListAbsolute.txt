@@ -10,3 +10,4 @@
 /Users/macbookpro/RiderProjects/E-shop/E-shop.Domain/obj/Debug/net8.0/E-shop.Domain.pdb
 /Users/macbookpro/RiderProjects/E-shop/E-shop.Domain/obj/Debug/net8.0/ref/E-shop.Domain.dll
 /Users/macbookpro/RiderProjects/E-shop/E-shop.Domain/obj/Debug/net8.0/E-shop.Domain.csproj.AssemblyReference.cache
+/Users/macbookpro/RiderProjects/E-shop/E-shop.Domain/obj/Debug/net8.0/E-shop.Domain.sourcelink.json

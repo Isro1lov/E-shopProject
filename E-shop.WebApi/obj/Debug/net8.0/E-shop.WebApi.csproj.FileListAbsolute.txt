@@ -277,3 +277,4 @@
 /Users/macbookpro/RiderProjects/E-shop/E-shop.WebApi/bin/Debug/net8.0/E-shop.Domain.dll
 /Users/macbookpro/RiderProjects/E-shop/E-shop.WebApi/bin/Debug/net8.0/E-shop.DataAccess.pdb
 /Users/macbookpro/RiderProjects/E-shop/E-shop.WebApi/bin/Debug/net8.0/E-shop.Domain.pdb
+/Users/macbookpro/RiderProjects/E-shop/E-shop.WebApi/obj/Debug/net8.0/E-shop.WebApi.sourcelink.json

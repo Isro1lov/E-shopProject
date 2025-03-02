@@ -6,8 +6,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 public class CartItem
 {
-    public int Id { get; set; }                  
-    public int? CardId { get; set; }
+    public int Id { get; set; }       
+    
+    public int? CartId { get; set; }
     public Cart Cart { get; set; }
 
     public int? ProductId { get; set; }
